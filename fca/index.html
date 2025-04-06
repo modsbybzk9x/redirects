@@ -1,0 +1,30 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkvertise Test</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        a {
+            display: block;
+            margin: 10px 0;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Linkvertise Full Script API Test</h1>
+    <p>Click on the links below to see if they get monetized by Linkvertise.</p><a href="https://example.com" target="_blank">Example Link 1</a>
+<a href="https://google.com" target="_blank">Example Link 2</a>
+
+<script src="https://publisher.linkvertise.com/cdn/linkvertise.js"></script>
+<script>
+    linkvertise(448219, {whitelist: [], blacklist: [""]});
+</script>
+
+</body>
+</html>
